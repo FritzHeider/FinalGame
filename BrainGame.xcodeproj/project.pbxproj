@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		97391718239D0A2D00C5593C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97391717239D0A2D00C5593C /* AppDelegate.swift */; };
-		9739171A239D0A2D00C5593C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97391719239D0A2D00C5593C /* SceneDelegate.swift */; };
-		9739171C239D0A2D00C5593C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9739171B239D0A2D00C5593C /* ViewController.swift */; };
-		9739171F239D0A2D00C5593C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9739171D239D0A2D00C5593C /* Main.storyboard */; };
-		97391721239D0A2F00C5593C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97391720239D0A2F00C5593C /* Assets.xcassets */; };
-		97391724239D0A2F00C5593C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97391722239D0A2F00C5593C /* LaunchScreen.storyboard */; };
+		97C0595E23A1C1CE00C55D72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C0595D23A1C1CE00C55D72 /* AppDelegate.swift */; };
+		97C0596023A1C1CE00C55D72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C0595F23A1C1CE00C55D72 /* SceneDelegate.swift */; };
+		97C0596223A1C1CE00C55D72 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97C0596123A1C1CE00C55D72 /* ViewController.swift */; };
+		97C0596523A1C1CE00C55D72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C0596323A1C1CE00C55D72 /* Main.storyboard */; };
+		97C0596723A1C1D200C55D72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97C0596623A1C1D200C55D72 /* Assets.xcassets */; };
+		97C0596A23A1C1D200C55D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C0596823A1C1D200C55D72 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97391714239D0A2D00C5593C /* FritzGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FritzGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		97391717239D0A2D00C5593C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97391719239D0A2D00C5593C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9739171B239D0A2D00C5593C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		9739171E239D0A2D00C5593C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		97391720239D0A2F00C5593C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		97391723239D0A2F00C5593C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		97391725239D0A2F00C5593C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97C0595A23A1C1CE00C55D72 /* FritzFInal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FritzFInal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97C0595D23A1C1CE00C55D72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		97C0595F23A1C1CE00C55D72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		97C0596123A1C1CE00C55D72 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		97C0596423A1C1CE00C55D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		97C0596623A1C1D200C55D72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		97C0596923A1C1D200C55D72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		97C0596B23A1C1D200C55D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		97391711239D0A2D00C5593C /* Frameworks */ = {
+		97C0595723A1C1CE00C55D72 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +37,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		9739170B239D0A2D00C5593C = {
+		97C0595123A1C1CE00C55D72 = {
 			isa = PBXGroup;
 			children = (
-				97391716239D0A2D00C5593C /* FritzGame */,
-				97391715239D0A2D00C5593C /* Products */,
+				97C0595C23A1C1CE00C55D72 /* BrainGame */,
+				97C0595B23A1C1CE00C55D72 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		97391715239D0A2D00C5593C /* Products */ = {
+		97C0595B23A1C1CE00C55D72 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97391714239D0A2D00C5593C /* FritzGame.app */,
+				97C0595A23A1C1CE00C55D72 /* FritzFInal.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		97391716239D0A2D00C5593C /* FritzGame */ = {
+		97C0595C23A1C1CE00C55D72 /* BrainGame */ = {
 			isa = PBXGroup;
 			children = (
-				97391717239D0A2D00C5593C /* AppDelegate.swift */,
-				97391719239D0A2D00C5593C /* SceneDelegate.swift */,
-				9739171B239D0A2D00C5593C /* ViewController.swift */,
-				9739171D239D0A2D00C5593C /* Main.storyboard */,
-				97391720239D0A2F00C5593C /* Assets.xcassets */,
-				97391722239D0A2F00C5593C /* LaunchScreen.storyboard */,
-				97391725239D0A2F00C5593C /* Info.plist */,
+				97C0595D23A1C1CE00C55D72 /* AppDelegate.swift */,
+				97C0595F23A1C1CE00C55D72 /* SceneDelegate.swift */,
+				97C0596123A1C1CE00C55D72 /* ViewController.swift */,
+				97C0596323A1C1CE00C55D72 /* Main.storyboard */,
+				97C0596623A1C1D200C55D72 /* Assets.xcassets */,
+				97C0596823A1C1D200C55D72 /* LaunchScreen.storyboard */,
+				97C0596B23A1C1D200C55D72 /* Info.plist */,
 			);
-			path = FritzGame;
+			path = BrainGame;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97391713239D0A2D00C5593C /* FritzGame */ = {
+		97C0595923A1C1CE00C55D72 /* BrainGame */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97391728239D0A2F00C5593C /* Build configuration list for PBXNativeTarget "FritzGame" */;
+			buildConfigurationList = 97C0596E23A1C1D200C55D72 /* Build configuration list for PBXNativeTarget "BrainGame" */;
 			buildPhases = (
-				97391710239D0A2D00C5593C /* Sources */,
-				97391711239D0A2D00C5593C /* Frameworks */,
-				97391712239D0A2D00C5593C /* Resources */,
+				97C0595623A1C1CE00C55D72 /* Sources */,
+				97C0595723A1C1CE00C55D72 /* Frameworks */,
+				97C0595823A1C1CE00C55D72 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = FritzGame;
-			productName = FritzGame;
-			productReference = 97391714239D0A2D00C5593C /* FritzGame.app */;
+			name = BrainGame;
+			productName = BrainGame;
+			productReference = 97C0595A23A1C1CE00C55D72 /* FritzFInal.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		9739170C239D0A2D00C5593C /* Project object */ = {
+		97C0595223A1C1CE00C55D72 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1120;
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "Make School";
 				TargetAttributes = {
-					97391713239D0A2D00C5593C = {
+					97C0595923A1C1CE00C55D72 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = 9739170F239D0A2D00C5593C /* Build configuration list for PBXProject "FritzGame" */;
+			buildConfigurationList = 97C0595523A1C1CE00C55D72 /* Build configuration list for PBXProject "BrainGame" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 9739170B239D0A2D00C5593C;
-			productRefGroup = 97391715239D0A2D00C5593C /* Products */;
+			mainGroup = 97C0595123A1C1CE00C55D72;
+			productRefGroup = 97C0595B23A1C1CE00C55D72 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97391713239D0A2D00C5593C /* FritzGame */,
+				97C0595923A1C1CE00C55D72 /* BrainGame */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		97391712239D0A2D00C5593C /* Resources */ = {
+		97C0595823A1C1CE00C55D72 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				97391724239D0A2F00C5593C /* LaunchScreen.storyboard in Resources */,
-				97391721239D0A2F00C5593C /* Assets.xcassets in Resources */,
-				9739171F239D0A2D00C5593C /* Main.storyboard in Resources */,
+				97C0596A23A1C1D200C55D72 /* LaunchScreen.storyboard in Resources */,
+				97C0596723A1C1D200C55D72 /* Assets.xcassets in Resources */,
+				97C0596523A1C1CE00C55D72 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		97391710239D0A2D00C5593C /* Sources */ = {
+		97C0595623A1C1CE00C55D72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9739171C239D0A2D00C5593C /* ViewController.swift in Sources */,
-				97391718239D0A2D00C5593C /* AppDelegate.swift in Sources */,
-				9739171A239D0A2D00C5593C /* SceneDelegate.swift in Sources */,
+				97C0596223A1C1CE00C55D72 /* ViewController.swift in Sources */,
+				97C0595E23A1C1CE00C55D72 /* AppDelegate.swift in Sources */,
+				97C0596023A1C1CE00C55D72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		9739171D239D0A2D00C5593C /* Main.storyboard */ = {
+		97C0596323A1C1CE00C55D72 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				9739171E239D0A2D00C5593C /* Base */,
+				97C0596423A1C1CE00C55D72 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		97391722239D0A2F00C5593C /* LaunchScreen.storyboard */ = {
+		97C0596823A1C1D200C55D72 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				97391723239D0A2F00C5593C /* Base */,
+				97C0596923A1C1D200C55D72 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		97391726239D0A2F00C5593C /* Debug */ = {
+		97C0596C23A1C1D200C55D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		97391727239D0A2F00C5593C /* Release */ = {
+		97C0596D23A1C1D200C55D72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,37 +280,37 @@
 			};
 			name = Release;
 		};
-		97391729239D0A2F00C5593C /* Debug */ = {
+		97C0596F23A1C1D200C55D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5B545XA3T;
-				INFOPLIST_FILE = FritzGame/Info.plist;
+				INFOPLIST_FILE = BrainGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.FritzGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.BrainGame;
+				PRODUCT_NAME = FritzFInal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		9739172A239D0A2F00C5593C /* Release */ = {
+		97C0597023A1C1D200C55D72 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H5B545XA3T;
-				INFOPLIST_FILE = FritzGame/Info.plist;
+				INFOPLIST_FILE = BrainGame/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.FritzGame;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.makeschool.BrainGame;
+				PRODUCT_NAME = FritzFInal;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -319,25 +319,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9739170F239D0A2D00C5593C /* Build configuration list for PBXProject "FritzGame" */ = {
+		97C0595523A1C1CE00C55D72 /* Build configuration list for PBXProject "BrainGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97391726239D0A2F00C5593C /* Debug */,
-				97391727239D0A2F00C5593C /* Release */,
+				97C0596C23A1C1D200C55D72 /* Debug */,
+				97C0596D23A1C1D200C55D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97391728239D0A2F00C5593C /* Build configuration list for PBXNativeTarget "FritzGame" */ = {
+		97C0596E23A1C1D200C55D72 /* Build configuration list for PBXNativeTarget "BrainGame" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				97391729239D0A2F00C5593C /* Debug */,
-				9739172A239D0A2F00C5593C /* Release */,
+				97C0596F23A1C1D200C55D72 /* Debug */,
+				97C0597023A1C1D200C55D72 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 9739170C239D0A2D00C5593C /* Project object */;
+	rootObject = 97C0595223A1C1CE00C55D72 /* Project object */;
 }
