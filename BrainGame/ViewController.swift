@@ -10,13 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
     struct color{
-        let textColor = ["Red", "Blue", "Green", "Yellow", "Purple", "Orange"]
-        let colors = ["Red":UIColor.red, "Blue":UIColor.blue, "Green":UIColor.green, "Yellow":UIColor.yellow, "Purple":UIColor.purple, "Orange":UIColor.orange]
+        let textColor = ["Red", "Blue", "Green"]
+        let colors = ["Red":UIColor.red, "Blue":UIColor.blue, "Green":UIColor.green]
     }
     
     var score = 0
     var matching:Bool = true
     
+    @IBOutlet weak var instructions: UILabel!
     @IBOutlet weak var firstWord: UILabel!
     @IBOutlet weak var secondWord: UILabel!
     
@@ -78,20 +79,24 @@ class ViewController: UIViewController {
         sectText.isHidden = false
         startText.isHidden = true
         overText.isHidden = true
+        instructions.isHidden = true
         
         self.score = 0
         scoreNum.text = "0"
-
         
+        self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(onTimerFires), userInfo: nil, repeats: true)
+
     }
     
     @IBAction func checkTrue(_ sender: Any) {
         if matching{
             self.score+=10
+            self.timeLeft += 4
             scoreNum.text = String(self.score)
             randomizer()
         } else {
             self.score -= 10
+            self.timeLeft -= 10
             scoreNum.text = String(self.score)
             randomizer()
         }
@@ -101,10 +106,12 @@ class ViewController: UIViewController {
     @IBAction func checkFalse(_ sender: Any) {
         if !matching {
             self.score += 10
+            self.timeLeft += 4
             scoreNum.text = String(self.score)
             randomizer()
         } else {
             self.score -= 10
+            self.timeLeft -= 10
             scoreNum.text = String(self.score)
             randomizer()
         }

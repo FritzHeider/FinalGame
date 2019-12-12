@@ -93,6 +93,13 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Match the top words meaning to the bottom words actual color without gettings confused and before the time runs out" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="6" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6fx-3P-Iym">
+                                <rect key="frame" x="70" y="107" width="264" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="scrollViewTexturedBackgroundColor"/>
                         <color key="tintColor" cocoaTouchSystemColor="lightTextColor"/>
@@ -101,6 +108,7 @@
                     <connections>
                         <outlet property="falseText" destination="jdd-r7-jXE" id="44u-J5-7aV"/>
                         <outlet property="firstWord" destination="X99-4Z-rQa" id="2t0-cW-dER"/>
+                        <outlet property="instructions" destination="6fx-3P-Iym" id="fbk-Sw-aWb"/>
                         <outlet property="overText" destination="o2I-Hw-Aij" id="trc-pe-gdM"/>
                         <outlet property="scoreNum" destination="uBg-df-hBW" id="KtC-fV-u53"/>
                         <outlet property="scoreText" destination="lP0-Kj-1eq" id="5Pn-hf-gai"/>
