@@ -43,6 +43,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="37"/>
                                 <state key="normal" title="False"/>
+                                <connections>
+                                    <action selector="checkFalse:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Hzw-04-tLe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wt3-RC-amz">
                                 <rect key="frame" x="-2" y="432" width="191" height="114"/>
@@ -51,6 +54,9 @@
                                 <state key="normal" title="Match!">
                                     <color key="titleColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="checkTrue:" destination="BYZ-38-t0r" eventType="touchUpInside" id="lBd-Y6-YzD"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="GameOver" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o2I-Hw-Aij">
                                 <rect key="frame" x="70" y="661" width="208" height="95"/>

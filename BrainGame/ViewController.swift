@@ -37,6 +37,17 @@ class ViewController: UIViewController {
     var timer:Timer?
     var timeLeft = 60
     
+    @objc func onTimerFires()
+    {
+        timeLeft -= 1
+        timeNum.text = "\(timeLeft)"
+        if timeLeft <= 0 {
+            timer!.invalidate()
+            timer = nil
+            gameOver()
+        }
+    }
+    
 
 
 
@@ -55,7 +66,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func startButton(_ sender: Any) {
-//        ?randomizer()
+        randomizer()
         scoreText.isHidden = false
         scoreNum.isHidden = false
         trueText.isHidden = false
@@ -71,8 +82,67 @@ class ViewController: UIViewController {
         self.score = 0
         scoreNum.text = "0"
 
-//        self.timer = Timer.scheduledTimer(timeInterval: 1.0, target: self, selector: #selector(onTimerFires), userInfo: nil, repeats: true)
         
     }
+    
+    @IBAction func checkTrue(_ sender: Any) {
+        if matching{
+            self.score+=10
+            scoreNum.text = String(self.score)
+            randomizer()
+        } else {
+            self.score -= 10
+            scoreNum.text = String(self.score)
+            randomizer()
+        }
+    }
+    
+    
+    @IBAction func checkFalse(_ sender: Any) {
+        if !matching {
+            self.score += 10
+            scoreNum.text = String(self.score)
+            randomizer()
+        } else {
+            self.score -= 10
+            scoreNum.text = String(self.score)
+            randomizer()
+        }
+        
+    }
+    func randomizer(){
+        let colorChoices = color()
+        let textWord = colorChoices.textColor.randomElement()
+        let matchColor = colorChoices.textColor.randomElement()
+        let matchText =  colorChoices.textColor.randomElement()
+        
+        if textWord == matchColor{
+            self.matching = true
+        } else {
+            self.matching = false
+        }
+
+        firstWord.text = textWord
+        secondWord.textColor = colorChoices.colors[matchColor!]
+        secondWord.text = matchText
+    }
+    
+    
+    
+    
+    func gameOver(){
+        trueText.isHidden = true
+        falseText.isHidden = true
+        firstWord.isHidden = true
+        secondWord.isHidden = true
+        startText.isHidden = false
+        overText.isHidden = false
+        timeNum.isHidden = true
+        timeText.isHidden = true
+        sectText.isHidden = true
+        self.timeLeft = 60
+    }
+    
+    
 }
 
